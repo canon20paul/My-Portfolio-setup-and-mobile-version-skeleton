@@ -79,3 +79,85 @@ body {
     order: 0;
     flex-grow: 0;
   }
+  *Intro Detail styling*/
+.detail {
+  width: 327px;
+  height: 170px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #c8c8d4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*Horrinzontal Line*/
+hr {
+  border: 1px solid #646369;
+}
+/*table Styling*/
+.tbl {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 350px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+
+  margin-top: 40px;
+}
+
+.HL {
+  width: 107px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+
+color: #9490FF;
+flex: none;
+order: 0;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 1em 0;
+
+  width: 104.52px;
+height: 15.48px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+
+color: #F5F5FF;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
