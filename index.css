@@ -161,3 +161,31 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+/*Eclipse styling*/
+.eclips {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: -106px;
+    top: 0px;
+    background: #edecff;
+    filter: blur(50px);
+  }
+  
+  .eclips1 {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 339px;
+    top: 495px;
+    background: #edecff;
+    filter: blur(50px);
+  }
+  /*Social media Icons*/
+  .fa {
+    color: #fff;
+  }
+  
+  .fa:hover {
+    color: #f00;
+  }
