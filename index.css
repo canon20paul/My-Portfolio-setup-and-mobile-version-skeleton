@@ -1,0 +1,81 @@
+/*Main page Body Styling*/
+body {
+    background-color: rgb(12, 12, 88);
+    color: #fff;
+    max-width: 375px;
+    margin: auto;
+  }
+  /*Top Navigation Positioning*/
+  .navtop {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  
+  .navt {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    width: 18px;
+    height: 7.33px;
+    left: 85%;
+    top: 10px;
+  
+    background: #ffffff;
+    border-radius: 1.33333px;
+  }
+  .top {
+    align-self: flex-end;
+  
+  
+  }
+  .paul {
+    position: relative;
+    z-index: 4;
+    margin-top: 20px;
+  }
+  
+  .flame {
+    /*Used to View Flexbox Boundaries when active*/
+     border: #fff solid;
+  }
+  /*Main Flexbox container*/
+  .container {
+    min-width: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  /*Main Header/Name & title styling*/
+  .Mname {
+  
+    width: 100%;
+    font-family: "Roboto";
+    color: #7d73fc;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: center;
+    font-style: normal;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .SE {
+    width: 330px;
+    height: 87px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #edecff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
