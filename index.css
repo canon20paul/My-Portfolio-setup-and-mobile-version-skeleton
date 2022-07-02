@@ -17,14 +17,14 @@ body {
   display: flex;
   flex-flow: row;
   position: relative;
-  width: 18px; 
+  width: 18px;
   height: 7.33px;
   left: 85%;
   top: 10px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 1.33333px;
 }
-  
+
 .top {
   align-self: flex-end;
 }
@@ -36,11 +36,11 @@ body {
 }
 
 .flame {
-    /*Used to View Flexbox Boundaries when active*/
+    /* Used to View Flexbox Boundaries when active */
   border: #fff solid;
 }
 
-/*Main Flexbox container*/
+/* Main Flexbox container */
 .container {
   min-width: 350px;
   display: flex;
@@ -48,7 +48,7 @@ body {
   align-items: center;
 }
 
-/*Main Header/Name & title styling*/
+/* Main Header/Name & title styling */
 .Mname {
     width: 100%;
     font-family: "Roboto";
@@ -96,12 +96,12 @@ body {
     flex-grow: 0;
 }
 
-/*Horrinzontal Line*/
+/* Horrinzontal Line */
 hr {
     border: 1px solid #646369;
 }
 
-/*table Styling*/
+/* table Styling */
 .tbl {
     display: flex;
     flex-flow: row wrap;
@@ -161,7 +161,7 @@ li {
     flex-grow: 0;
 }
 
-/*Eclipse styling*/
+/* Eclipse styling */
 .eclips {
     position: absolute;
     width: 160px;
@@ -182,7 +182,7 @@ li {
     filter: blur(50px);
 }
 
-/*Social media Icons*/
+/* Social media Icons */
 .fa {
     color: #fff;
 }
