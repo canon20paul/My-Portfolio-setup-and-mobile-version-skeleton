@@ -1,4 +1,4 @@
-/*Main page Body Styling*/
+/* Main page Body Styling */
 body {
     background-color: rgb(12, 12, 88);
     color: #fff;
@@ -6,7 +6,7 @@ body {
     margin: auto;
 }
 
-/*Top Navigation Positioning*/
+/* Top Navigation Positioning */
 .navtop {
     display: flex;
     flex-flow: column;
