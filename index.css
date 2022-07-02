@@ -264,7 +264,7 @@ li {
 
 /* Main Grid Container */
 .works {
-  /*height: 150vh;*/
+  /* height:150vh */
   border-color: #f00;
   height: 1040vh;
   display: grid;
@@ -284,6 +284,7 @@ li {
 .title {
   grid-area: title;
 }
+
 .work1 {
   grid-area: main1;
   display: flex;
@@ -291,52 +292,36 @@ li {
   align-items: center;
   width: 350px;
 }
-.Wimage .image {
-  /*padding: 15px;
-  width:300px;
-  height: 150px;*/
 
+.Wimage .image {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
-    url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .work2 {
   grid-area: main2;
-}
+} 
+
 .work3 {
   grid-area: main3;
 }
+
 .work4 {
   grid-area: main4;
 }
+
 .contact {
   grid-area: contact;
 }
+
 .footer {
   grid-area: footer;
 }
-
-/*Work Title*/
-.Workttl {
-  width: 350px;
-  font-family: "Roboto";
-  color: #7d73fc;
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0.3700000047683716px;
-  text-align: left;
-  font-style: normal;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-/*Contact Title*/
+/* Contact Title */
 .Cnttl {
   width: 350px;
   font-family: "Roboto";
@@ -351,7 +336,7 @@ li {
   order: 0;
   flex-grow: 0;
 }
-/*Work Description*/
+/* Work Description */
 .wkttl {
   width: 327px;
   height: 105px;
@@ -367,7 +352,7 @@ li {
   order: 0;
   flex-grow: 0;
 }
-/*Work ) Project Description*/
+/* Work ) Project Description */
 .WKdetail {
   margin-top: 0px;
   font-family: "Inter";
@@ -380,10 +365,10 @@ li {
   order: 0;
   flex-grow: 0;
 }
+
 .wfoot li {
   display: inline;
-
-  margin-top: 0px;
+  margin-top: 0;
   width: 71px;
   height: 10px;
   font-family: "Inter";
@@ -396,6 +381,7 @@ li {
   order: 0;
   flex-grow: 1;
 }
+
 button {
   width: 95px;
   height: 24px;
@@ -415,13 +401,13 @@ button {
   order: 0;
   flex-grow: 0;
 }
+
 .btn {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-
   width: 89px;
   height: 48px;
   background: #7d73fc;
@@ -429,9 +415,11 @@ button {
   order: 3;
   flex-grow: 0;
 }
+
 .btnC {
   width: 100%;
 }
+
 textarea {
   width: 100%;
   height: 150px;
@@ -444,10 +432,10 @@ textarea {
   resize: none;
   text-align: left;
 }
+
 input {
   width: 100%;
   padding: 12px 10px;
-
   position: relative;
   left: 0px;
   right: 0px;
@@ -455,7 +443,6 @@ input {
   bottom: 0px;
   background: #f7f3ff;
   border: 1px solid #9490ff;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 100;
@@ -467,10 +454,11 @@ input {
   order: 0;
   flex-grow: 0;
 }
+
 .Femail {
   width: 100%;
   height: 10px;
-  left: o;
+  left: 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 50;
