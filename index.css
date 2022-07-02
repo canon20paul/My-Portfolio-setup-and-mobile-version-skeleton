@@ -1,52 +1,52 @@
 /* Main page Body Styling */
 body {
-    background-color: rgb(12, 12, 88);
-    color: #fff;
-    max-width: 375px;
-    margin: auto;
+  background-color: rgb(12, 12, 88);
+  color: #fff;
+  max-width: 375px;
+  margin: auto;
 }
 
 /* Top Navigation Positioning */
 .navtop {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
 }
 
 .navt {
-    display: flex;
-    flex-flow: row;
-    position: relative;
-    width: 18px;
-    height: 7.33px;
-    left: 85%;
-    top: 10px;
+  display: flex;
+  flex-flow: row;
+  position: relative;
+  width: 18px;  
+  height: 7.33px;
+  left: 85%;
+  top: 10px;
 
-    background: #ffffff;
-    border-radius: 1.33333px;
+  background: #ffffff;
+  border-radius: 1.33333px;
 }
-
+  
 .top {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .paul {
-    position: relative;
-    z-index: 4;
-    margin-top: 20px;
+  position: relative;
+  z-index: 4;
+  margin-top: 20px;
 }
 
 .flame {
     /*Used to View Flexbox Boundaries when active*/
-    border: #fff solid;
+  border: #fff solid;
 }
 
 /*Main Flexbox container*/
 .container {
-    min-width: 350px;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+  min-width: 350px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 /*Main Header/Name & title styling*/
