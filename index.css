@@ -16,7 +16,7 @@ body {
   margin: auto auto;
 }
 
-/* Top  Right Battery and wifi icons*/
+/* Top  Right Battery and wifi icons */
 .navv {
   margin-top: 15px;
   width: 80px;
@@ -25,7 +25,7 @@ body {
 }
 
 .navR {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 /*  Hamnurg Menu */
@@ -38,7 +38,7 @@ body {
 
 /*  Hamnurg 1 */
 .hr1 {
-  border-radius: 0px;
+  border-radius: 0;
   position: relative;
   left: 0;
   right: 0;
@@ -48,7 +48,7 @@ body {
 
 /*  Hamnurg 2 */
 .hr2 {
-  border-radius: 0px;
+  border-radius: 0;
   position: relative;
   left: 0;
   right: 0;
@@ -58,7 +58,7 @@ body {
 
 /*  Hamnurg 3 */
 .hr3 {
-  border-radius: 0px;
+  border-radius: 0;
   position: relative;
   left: 0;
   right: 0;
@@ -70,7 +70,7 @@ body {
 .nameL {
   width: 150px;
   height: 16px;
-  font-family: Roboto, Cantarell;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -82,7 +82,7 @@ body {
   margin-left: 15px;
   width: 100px;
   height: 45px;
-  font-family: Roboto, Cantarell;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
