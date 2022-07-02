@@ -296,8 +296,7 @@ li {
 .Wimage .image {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
-    url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -338,6 +337,7 @@ li {
   order: 0;
   flex-grow: 0;
 }
+
 /* Work Description */
 .wkttl {
   width: 327px;
@@ -354,10 +354,11 @@ li {
   order: 0;
   flex-grow: 0;
 }
+
 /* Work ) Project Description */
 .WKdetail {
   margin-top: 0;
-  font-family: "Inter";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -441,8 +442,8 @@ input {
   position: relative;
   left: 0px;
   right: 0px;
-  top: 0px;
-  bottom: 0px;
+  top: 0;
+  bottom: 0;
   background: #f7f3ff;
   border: 1px solid #9490ff;
   font-family: "Roboto", sans-serif;
