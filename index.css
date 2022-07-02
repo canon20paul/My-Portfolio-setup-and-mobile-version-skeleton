@@ -293,29 +293,28 @@ li {
   width: 350px;
 }
   
-  Wimage .image {
+.Wimage .image {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
-  url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
   flex: none;
   order: 0;
   flex-grow: 0;
 } 
   
-  .work2 {
+.work2 {
   grid-area: main2;
 }
 
 .work3 {
-grid-area: main3;
+  grid-area: main3;
 }
 
-  .work4 {
+.work4 {
    grid-area: main4;
 }
 
-  .contact {
+.contact {
   grid-area: contact;
 }
 
@@ -325,7 +324,7 @@ grid-area: main3;
 /* Contact Title */
 .Cnttl {
   width: 350px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #7d73fc;
   font-size: 28px;
   font-weight: 300;
@@ -341,14 +340,14 @@ grid-area: main3;
 .wkttl {
   width: 327px;
   height: 105px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -372,12 +371,12 @@ grid-area: main3;
   margin-top: 0;
   width: 71px;
   height: 10px;
-  font-family: "Inter";
+  font-family:  inter, "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 1;
@@ -388,7 +387,7 @@ button {
   height: 24px;
   background: #7d73fc;
   border-color: transparent;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -444,7 +443,7 @@ input {
   bottom: 0px;
   background: #f7f3ff;
   border: 1px solid #9490ff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 20px;
@@ -460,7 +459,7 @@ input {
   width: 100%;
   height: 10px;
   left: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 50;
   font-size: 20px;
