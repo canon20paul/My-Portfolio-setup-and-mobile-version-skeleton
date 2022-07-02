@@ -94,7 +94,7 @@ body {
   margin-left: 20px;
 }
 
-.flame {
+.flme {
   /* Used to View Flexbox Boundaries when active */
   border: #fff solid;
 }
@@ -246,7 +246,7 @@ li {
 }
 
 .social {
-  width: 220px;
+  width: 160px;
   height: 40px;
   display: flex;
   flex-flow: row nowrap;
