@@ -1,0 +1,263 @@
+/* Main page Body Styling */
+body {
+  background-color: rgb(12, 12, 88);
+  color: #fff;
+  width: 340px;
+  margin: auto;
+}
+
+/* Top Navigation Positioning */
+.navt {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 340px;
+  position: relative;
+  margin: auto auto;
+}
+
+/* Top  Right Battery and wifi icons */
+.navv {
+  margin-top: 15px;
+  width: 80px;
+  height: 40px;
+  overflow: auto;
+}
+
+.navR {
+  margin-right: 0;
+}
+
+/*  Hamnurg Menu */
+.Nvr {
+  width: 33.33332824707031px;
+  height: 2px;
+  background-color: rgb(248, 248, 248);
+  margin: 6px 0;
+}
+
+/*  Hamnurg 1 */
+.hr1 {
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 2;
+  bottom: 0;
+}
+
+/*  Hamnurg 2 */
+.hr2 {
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 2px;
+  bottom: 0;
+}
+
+/*  Hamnurg 3 */
+.hr3 {
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 2px;
+  bottom: 0;
+}
+
+/*  Left Navigation items */
+.nameL {
+  width: 150px;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.Tym {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 100px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  overflow: auto;
+}
+
+.navL {
+  margin-left: 20px;
+}
+
+.flme {
+  /* Used to View Flexbox Boundaries when active */
+  border: #fff solid;
+}
+
+/* Main Flexbox container */
+.container {
+  min-width: 340px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+/* Main Header/Name & title styling */
+.Mname {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #7d73fc;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.SE {
+  justify-content: center;
+  width: 330px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 25px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #edecff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Intro Detail styling */
+.detail {
+  margin-top: 59px;
+  width: 327px;
+  height: 170px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #c8c8d4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Horrinzontal Line */
+hr {
+  border: 1px solid #646369;
+  background-color: #646369;
+}
+
+/* table Styling */
+.tbl {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 350px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+}
+
+.HL {
+  width: 107px;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #9490ff;
+  flex: none;
+  order: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 1em 0;
+  width: 104.52px;
+  height: 15.48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #f5f5ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Eclipse styling */
+.eclips {
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  left: -60px;
+  top: 120px;
+  background: #fff;
+  filter: blur(50px);
+}
+
+.eclips1 {
+  position: absolute;
+  width: 168px;
+  height: 68px;
+  left: 339px;
+  top: 650px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+/* Social media Icons */
+.fa {
+  color: #fff;
+}
+
+.fa:hover {
+  color: #f00;
+}
+
+.social {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.HLR {
+  width: 90%;
+  height: 1px;
+  background-color: #646369;
+  border-color: #646369;
+}
