@@ -266,7 +266,7 @@ li {
 .works {
   /*height: 150vh;*/
   border-color: #f00;
-  height: 590vh;
+  height: 1040vh;
   display: grid;
   grid-template-columns: 350px;
   grid-template-rows: 220px 650px 650px 650px 650px 780px 130px 100px;
@@ -474,7 +474,7 @@ input {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 50;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
