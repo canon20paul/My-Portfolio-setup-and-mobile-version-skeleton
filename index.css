@@ -1,6 +1,11 @@
 /* Main page Body Styling */
+* {
+  max-width: 350px;
+  margin: auto;
+}
 body {
-  background-color: rgb(12, 12, 88);
+  background-color: #191765;
+  max-width: 350px;
   color: #fff;
   width: 340px;
   margin: auto;
@@ -11,7 +16,7 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  width: 340px;
+  width: 350px;
   position: relative;
   margin: auto auto;
 }
@@ -94,16 +99,17 @@ body {
   margin-left: 20px;
 }
 
-.flme {
+.flame {
   /* Used to View Flexbox Boundaries when active */
   border: #fff solid;
 }
 
 /* Main Flexbox container */
 .container {
-  min-width: 340px;
+  min-width: 350px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
+  align-content: center;
   align-items: center;
 }
 
@@ -160,22 +166,35 @@ body {
 
 /* Horrinzontal Line */
 hr {
-  border: 1px solid #646369;
+  border: 5px solid #646369;
   background-color: #646369;
 }
 
 /* table Styling */
 .tbl {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  max-width: 350px;
+  display: block;
+
+  width: 350px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.03em;
-  margin-top: 10px;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.L1 {
+  float: left;
+}
+
+.L2 {
+  float: right;
+}
+
+.L3 {
+  margin-top: 25px;
+  float: left;
 }
 
 .HL {
@@ -257,19 +276,18 @@ li {
 
 .HLR {
   width: 90%;
-  height: 1px;
+  height: 2px;
   background-color: #646369;
   border-color: #646369;
 }
 
 /* Main Grid Container */
 .works {
-  /* height:150vh */
   border-color: #f00;
-  height: 1040vh;
+  height: 580vh;
   display: grid;
-  grid-template-columns: 350px;
-  grid-template-rows: 220px 650px 650px 650px 650px 780px 130px 100px;
+  grid-template-columns: 370px;
+  grid-template-rows: 220px 650px 650px 650px 650px 780px 130px;
   grid-gap: 10px;
   grid-template-areas:
     "title"
@@ -296,7 +314,8 @@ li {
 .Wimage .image {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
+    url(image_processing20200716-21735-f07s4k.png);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -327,13 +346,13 @@ li {
   width: 350px;
   font-family: "Roboto", sans-serif;
   color: #7d73fc;
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 52px;
   letter-spacing: 0.3700000047683716px;
-  text-align: left;
+  text-align: center;
   font-style: normal;
-  flex: none;
+
   order: 0;
   flex-grow: 0;
 }
@@ -356,33 +375,47 @@ li {
 }
 
 /* Work ) Project Description */
-.WKdetail {
+
+.WKdetail p {
+  width: 327px;
+  text-align: center;
   margin-top: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 28px;
   color: #dcdce8;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .wfoot li {
+  float: right;
   display: inline;
-  margin-top: 0;
-  width: 71px;
-  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.wfoot ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.wfoot {
+  display: block;
+  margin: 0;
+  width: 330px;
+  height: 100px;
   font-family: inter, "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 15px;
   line-height: 20px;
   color: #fff;
   flex: none;
   order: 0;
-  flex-grow: 1;
 }
 
 button {
@@ -420,48 +453,62 @@ button {
 }
 
 .btnC {
+  display: block;
   width: 100%;
 }
 
 textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 10px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 20px;
+  min-width: 350px;
+  min-height: 150px;
   resize: none;
+  columns: 50;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-size: 15px;
   text-align: left;
+  color: #81818c;
 }
 
-input {
-  width: 100%;
-  padding: 12px 10px;
+#names {
+  width: 327px;
+  max-lines: 10;
   position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
   background: #f7f3ff;
   border: 1px solid #9490ff;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px;
   line-height: 28px;
   text-align: left;
-  color: #27272b;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
-
+/* Email Input*/
+#email {
+  color: #191765;
+  width: 327px;
+  position: relative;
+  background: #f7f3ff;
+  border: 1px solid #9490ff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px;
+  line-height: 28px;
+  text-align: left;
+  order: 0;
+  flex-grow: 0;
+}
+/* Owner contact email Address*/
 .Femail {
   width: 100%;
   height: 10px;
-  left: 0;
+  margin-bottom: 100px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 50;
@@ -472,6 +519,7 @@ input {
 }
 
 .footerr {
+  margin-top: 100px;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -481,5 +529,15 @@ form {
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
   align-items: center;
 }
