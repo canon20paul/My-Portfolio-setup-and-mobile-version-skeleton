@@ -391,14 +391,14 @@ li {
 }
 
 .wfoot li {
-  float: right;
   display: inline;
-  margin: 0;
+  margin-left: 10px;
   padding: 0;
 }
 
 .wfoot ul {
-  display: inline;
+  position: relative;
+  float: left;
   margin: 0;
   padding: 0;
 }
