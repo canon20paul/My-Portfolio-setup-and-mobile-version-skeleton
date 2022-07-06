@@ -353,8 +353,8 @@ li {
   flex-flow: column nowrap;
   align-content: center;
   align-items: center;
- }
- 
+}
+
 footer {
   grid-area: footer;
   display: flex;
