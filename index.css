@@ -328,8 +328,7 @@ li {
 .Wimage .image {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
-    url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -349,11 +348,20 @@ li {
 
 .contact {
   grid-area: contact;
-}
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  }
 
 .footer {
   grid-area: footer;
   display: flex;
+  margin-top: 100px;
+  flex-flow: column nowrap;
+  align-items: center;
+   
 }
 
 /* Contact Title */
@@ -505,7 +513,8 @@ textarea {
   order: 0;
   flex-grow: 0;
 }
-/* Email Input*/
+
+/* Email Input */
 #email {
   color: #191765;
   width: 327px;
@@ -522,6 +531,7 @@ textarea {
   order: 0;
   flex-grow: 0;
 }
+
 /* contact Address Title */
 .Cname {
   width: 100%;
@@ -536,7 +546,8 @@ textarea {
   order: 0;
   flex-grow: 0;
 }
-/* Owner contact email Address*/
+
+/* Owner contact email Address */
 .Femail {
   width: 100%;
   padding-bottom: 0;
@@ -550,12 +561,6 @@ textarea {
   margin-top: -40px;
 }
 
-.footer {
-  margin-top: 100px;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
 form {
   width: 100%;
   display: flex;
@@ -565,10 +570,3 @@ form {
   margin-top: 30px;
 }
 
-.contact {
-  width: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: center;
-  align-items: center;
-}
