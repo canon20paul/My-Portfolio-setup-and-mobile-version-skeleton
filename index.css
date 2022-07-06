@@ -170,7 +170,6 @@ hr {
 /* table Styling */
 .tbl {
   display: block;
-
   width: 350px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -294,6 +293,7 @@ li {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 /* Main Grid Container */
 .works {
   padding-bottom: 50px;
@@ -354,7 +354,6 @@ li {
 .footer {
   grid-area: footer;
   display: flex;
-
 }
 
 /* Contact Title */
@@ -384,7 +383,6 @@ li {
   display: flex;
   align-items: center;
   margin-left: 0;
-  
   color: #fff;
   flex: none;
   order: 0;
@@ -392,7 +390,6 @@ li {
 }
 
 /* Work ) Project Description */
-
 .WKdetail p {
   width: 327px;
   text-align: center;
@@ -437,8 +434,8 @@ li {
 }
 
 button {
-  width: Hug(75px);
-  height: Hug(24px);
+  width: hug(75px);
+  height: hug(24px);
   background: #7d73fc;
   border-color: transparent;
   font-family: "Roboto", sans-serif;
@@ -476,8 +473,6 @@ button {
   display: block;
   width: 100%;
   border-color: #f00;
-  
-  
 }
 
 textarea {
@@ -552,11 +547,10 @@ textarea {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
- margin-top: -40px;
-  
+  margin-top: -40px;
 }
 
-.footer{
+.footer {
   margin-top: 100px;
   flex-flow: column nowrap;
   align-items: center;
