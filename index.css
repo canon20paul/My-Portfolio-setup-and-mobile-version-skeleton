@@ -353,15 +353,14 @@ li {
   flex-flow: column nowrap;
   align-content: center;
   align-items: center;
-  }
-
-.footer {
+ }
+  
+  footer {
   grid-area: footer;
   display: flex;
   margin-top: 100px;
   flex-flow: column nowrap;
   align-items: center;
-   
 }
 
 /* Contact Title */
@@ -569,4 +568,3 @@ form {
   align-items: center;
   margin-top: 30px;
 }
-
