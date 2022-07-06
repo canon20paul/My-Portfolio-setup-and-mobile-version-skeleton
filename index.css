@@ -354,8 +354,8 @@ li {
   align-content: center;
   align-items: center;
  }
-  
-  footer {
+ 
+footer {
   grid-area: footer;
   display: flex;
   margin-top: 100px;
