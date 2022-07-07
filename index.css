@@ -266,7 +266,7 @@ li {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-margin-left:40px;
+  margin-left: 40px;
   margin-bottom: 40px;
   margin-top: 50px;
 }
@@ -320,7 +320,6 @@ margin-left:40px;
 
 .work1 {
   grid-area: main1;
-  
 }
 
 .Wimage .image {
@@ -544,27 +543,24 @@ form {
   align-items: center;
   margin-top: 30px;
 }
-.lkd{
-  
+.lkd {
   display: flex;
-
   border-width: 0;
   padding: 0;
   width: 20px;
   height: 19px;
   margin: 0;
 }
+
 .lki{
-position: static;
+  position: static;
   width:5px;
   height: 18px;
   margin:0;
   padding: 0;
   margin-top: -15px;
   }
+
   img:hover {
-    background-color: rgb(216, 7, 7);
-    
-    
-  }
- 
+  background-color: rgb(216, 7, 7);
+}
